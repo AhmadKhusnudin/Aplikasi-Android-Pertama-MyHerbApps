@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyHerbApps</string>
+    <string name="nama_tanaman">Nama Tanaman</string>
+    <string name="latin">Nama Latin</string>
+    <string name="manfaat">Manfaat</string>
+    <string name="share">Share</string>
+    <string name="warna">Warna : </string>
+    <string name="konten_warna">Konten_Warna</string>
+    <string name="akar">Akar : </string>
+    <string name="konten_akar">Konten_Akar</string>
+    <string name="daun">Daun : </string>
+    <string name="deskripsi_daun">Deskripsi_Daun</string>
+    <string name="detail_manfaat_received">detail_manfaat_received</string>
+    <string name="profile">profile</string>
+    <string name="ahmad_khusnudin">Ahmad Khusnudin</string>
+    <string name="email">ahmadkhusnudin58@gmail.com</string>
+</resources>

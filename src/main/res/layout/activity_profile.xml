@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/namaku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ahmad_khusnudin"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textSize="32sp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/foto_profil"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/foto_saya">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TableRow
+            android:layout_margin="16dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:src="@drawable/ic_launcher_email"
+                android:layout_marginEnd="8dp">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/emailku"
+                android:text="@string/email"
+                android:textSize="16sp"
+                android:layout_gravity="center">
+            </TextView>
+
+        </TableRow>
+    </TableLayout>
+    </LinearLayout>
+
+
+</ScrollView>
